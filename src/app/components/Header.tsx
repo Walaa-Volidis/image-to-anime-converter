@@ -3,15 +3,12 @@ import React from 'react';
 export const Header: React.FC = () => {
   return (
     <nav className="border-b relative overflow-hidden">
-      {/* Anime-style gradient background */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-accent-foreground to-primary/80"></div>
 
-      {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-30">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-1/4 w-40 h-40 bg-white rounded-full blur-3xl"></div>
 
-        {/* Anime style decorative elements */}
         <div className="absolute top-10 left-1/5 w-3 h-3 bg-white rounded-full animate-sparkle delay-300"></div>
         <div className="absolute top-20 left-1/3 w-2 h-2 bg-white rounded-full animate-sparkle delay-100"></div>
         <div className="absolute bottom-10 right-1/4 w-4 h-4 bg-white rounded-full animate-sparkle delay-500"></div>
@@ -21,7 +18,6 @@ export const Header: React.FC = () => {
       <div className="container mx-auto px-6 py-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex items-center space-x-3 animate-float">
-            {/* Custom anime-style logo */}
             <div className="relative h-12 w-12 rounded-xl bg-white/90 flex items-center justify-center shadow-lg overflow-hidden animate-glow">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent-foreground/20"></div>
               <svg
