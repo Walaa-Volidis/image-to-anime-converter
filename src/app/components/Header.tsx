@@ -42,7 +42,7 @@ export const Header: React.FC = () => {
 
             <div>
               <h1 className="text-2xl font-bold text-white tracking-tight">
-                AnimeStyler
+                Anime Converter
               </h1>
               <p className="text-xs text-white/80 font-medium">
                 Transform Images to Anime
