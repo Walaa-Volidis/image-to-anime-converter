@@ -41,8 +41,7 @@ export default function Home() {
             Transform Your Images
           </h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-            Upload an image and our AI will create a stylistically anime version
-            with its own unique characteristics.
+            Upload an image and our AI will create an anime version
           </p>
         </div>
 
